@@ -8,11 +8,11 @@ export default function Home() {
           <li className="mb-2">
             First deploy for{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              Sayed Sameen
+              Hissan Aero
             </code>
             .
           </li>
-          <li>TO DO: Making changes, Coming Soon...</li>
+          <li>Work in Progress, Coming Soon...</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
@@ -70,7 +70,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Examples
+          Solutions
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -85,7 +85,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Go to site →
+          Contact Us →
         </a>
       </footer>
     </div>
