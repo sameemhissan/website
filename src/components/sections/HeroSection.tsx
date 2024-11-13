@@ -3,7 +3,10 @@ import MainButton from "../common/MainButton";
 
 function HeroSection() {
   return (
-    <section className="flex flex-col md:flex-row justify-between w-full">
+    <section
+      id="hero"
+      className="flex flex-col md:flex-row justify-between w-full"
+    >
       <div className="md:w-[50%]">
         <p className="text-h1Mobile md:text-h1 text-black font-bold leading-tight">
           <span className="text-blue-500 font-bold">Hissan Aero</span>
@@ -11,10 +14,7 @@ function HeroSection() {
           Your Trusted Partner in Aviation Supply
         </p>
         <div className="block md:hidden my-[35px]">
-          <img
-            src="/images/microphone_illustration.png"
-            alt="microphone illustration"
-          />
+          <img src="/images/heroCustom.svg" alt="hero illustration" />
         </div>
 
         <p className="text-p text-black my-[35px]">
@@ -31,11 +31,8 @@ function HeroSection() {
           classes="bg-secondary text-white text-[18px] w-full md:w-[231px] hover:text-black"
         />
       </div>
-      <div className="hidden md:block">
-        <img
-          src="/images/microphone_illustration.png"
-          alt="microphone illustration"
-        />
+      <div className="hidden md:block pt-24">
+        <img src="/images/heroCustom.svg" alt="hero illustration" width="670" />
       </div>
     </section>
   );

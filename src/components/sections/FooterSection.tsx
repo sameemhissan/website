@@ -14,15 +14,15 @@ function FooterSection() {
     <section className="bg-secondary rounded-t-[45px] p-8 md:p-[60px]">
       <div className="flex flex-col gap-8 md:flex-row justify-between">
         <div>
-          <img src="/images/logo.png" alt="footer logo" width="170" />
+          <img src="/images/logo_only.svg" alt="footer logo" width="70" />
         </div>
-        <div className="flex flex-col md:flex-row gap-[40px]">
+        {/* <div className="flex flex-col md:flex-row gap-[40px]">
           {links?.map((link, index) => (
             <p key={index} className="text-white underline text-p">
               {link}
             </p>
           ))}
-        </div>
+        </div> */}
         <div className="flex gap-[20px]">
           {socials.map((social, index) => (
             <div key={index}>
@@ -34,7 +34,7 @@ function FooterSection() {
       <div className="mt-[66px] flex flex-col md:flex-row gap-8 justify-between">
         <div>
           <div className="px-2 bg-primary inline-block font-medium text-[20px] rounded-md">
-            Contact Us:
+            You can connect to us on:
           </div>
 
           <p className="text-white mt-[27px]">Email: not set...</p>
@@ -45,7 +45,7 @@ function FooterSection() {
         </div>
         <div className="bg-[#292A32] flex flex-col md:flex-row gap-4 justify-center items-center md:gap-[20px] py-16 px-[40px] rounded-[14px]">
           <Input placeholder="Email" className="h-[58px] rounded-[14px]" />
-          <MainButton text="Subscribe to news " classes="bg-primary w-full" />
+          <MainButton text="Subscribe to us " classes="bg-primary w-full" />
         </div>
       </div>
       <div className="my-[25px]">

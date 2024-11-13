@@ -9,23 +9,23 @@ function NavBar() {
   const links = [
     {
       name: "About us",
-      link: "/",
+      link: "/about",
     },
     {
-      name: "Services",
-      link: "/",
+      name: "Why us",
+      link: "/why",
     },
     {
-      name: "Use Cases",
-      link: "/",
+      name: "Products",
+      link: "/products",
     },
     {
-      name: "Pricing",
-      link: "/",
+      name: "Solutions",
+      link: "/solutions",
     },
     {
-      name: "Blog",
-      link: "/",
+      name: "Contact us",
+      link: "/contact",
     },
   ];
 
