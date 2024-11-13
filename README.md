@@ -20,3 +20,5 @@ Here are ways to resolve this:
 ```bash
 npm install framer-motion@latest --legacy-peer-deps
 ```
+
+---
