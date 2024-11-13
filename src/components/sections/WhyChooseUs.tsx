@@ -34,7 +34,7 @@ export default function WhyChooseUs() {
                 <div className="flex gap-2 items-center">
                   <p className="text-primary">{study.title}</p>
                   <div>
-                    <img src="/images/arrow_rotate.png" />
+                    <img src="/images/arrow_light.png" className="scale-75" />
                   </div>
                 </div>
               </Link>

@@ -54,7 +54,7 @@ function ServiceCard({
         <div className="flex gap-2 items-center">
           <div>
             {darkArrow ? (
-              <img src="/images/arrow_dark.png" alt="dark arrow icon" />
+              <img src="/images/arrow_light.png" alt="dark arrow icon" />
             ) : (
               <img src="/images/arrow_light.png" alt="light arrow icon" />
             )}
