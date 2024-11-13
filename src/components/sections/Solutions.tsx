@@ -4,8 +4,8 @@ import ServiceCard from "../cards/ServiceCard";
 export default function Solutions() {
   const services = [
     {
-      titleTop: "24/7 Availability:",
-      titleBottom: "optimization",
+      titleTop: "24/7 Availability",
+      titleBottom: "",
       bg: "bg-accent",
       titleBg: "bg-primary",
       image: "/images/s_1.png",
@@ -15,7 +15,7 @@ export default function Solutions() {
 
     {
       titleTop: "Flexible Delivery Options",
-      titleBottom: "advertising",
+      titleBottom: "",
       bg: "bg-primary",
       titleBg: "bg-white",
       image: "/images/s_2.png",
@@ -24,7 +24,7 @@ export default function Solutions() {
     },
     {
       titleTop: "Commitment to Compliance",
-      titleBottom: "advertising",
+      titleBottom: "",
       bg: "bg-primary",
       titleBg: "bg-white",
       image: "/images/s_2.png",

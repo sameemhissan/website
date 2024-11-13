@@ -5,7 +5,7 @@ export default function Sustain() {
   const services = [
     {
       titleTop: "Eco-Friendly Practices",
-      titleBottom: "optimization",
+      titleBottom: "",
       bg: "bg-accent",
       titleBg: "bg-primary",
       image: "/images/s_1.png",
@@ -15,7 +15,7 @@ export default function Sustain() {
 
     {
       titleTop: "Compliance & Transparency",
-      titleBottom: "advertising",
+      titleBottom: "",
       bg: "bg-primary",
       titleBg: "bg-white",
       image: "/images/s_2.png",

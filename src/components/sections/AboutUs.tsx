@@ -9,7 +9,9 @@ function AboutUs() {
     >
       <div className="md:pr-[22rem]">
         <p className="text-h3Mobile md:text-h3 font-medium">About Us</p>
-        <p>Empowering Aviation Maintenance with Reliable Supplies</p>
+        <p className="text-xl font-semibold text-gray-700">
+          Empowering Aviation Maintenance with Reliable Supplies
+        </p>
         <p className="my-[26px]">
           Located in Ajman, UAE, Hissan Aero has established itself as a trusted
           supplier in the aviation sector. We understand the critical demands of
@@ -18,10 +20,13 @@ function AboutUs() {
           industry standards. Our team's expertise and dedication drive us to
           deliver tailored solutions and unparalleled customer support.
         </p>
-        <MainButton
+        <br />
+        <br />
+        <br />
+        {/* <MainButton
           text="Get your free proposal"
           classes="bg-secondary text-white text-[18px] w-full md:w-[231px] hover:text-black"
-        />
+        /> */}
       </div>
       <div className="absolute -top-8 right-8 hidden md:block">
         <img

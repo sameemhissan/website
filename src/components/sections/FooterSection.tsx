@@ -36,11 +36,13 @@ function FooterSection() {
           <div className="px-2 bg-primary inline-block font-medium text-[20px] rounded-md">
             You can connect to us on:
           </div>
-
-          <p className="text-white mt-[27px]">Email: not set...</p>
-          <p className="text-white mt-[27px]">Phone: 000-20000-0000</p>
           <p className="text-white mt-[27px]">
-            Address: Ajman, United Arab Emirates
+            e-mail ID: sales@hissan-aero.com
+          </p>
+          <p className="text-white mt-[27px]">Phone no.: +971588424676</p>
+          <p className="text-white mt-[27px]">
+            Address: # B.C. 1302208, AFZ C1 Building, Ajman Free Zone, United
+            Arab Emirates
           </p>
         </div>
         <div className="bg-[#292A32] flex flex-col md:flex-row gap-4 justify-center items-center md:gap-[20px] py-16 px-[40px] rounded-[14px]">

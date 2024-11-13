@@ -26,10 +26,10 @@ function HeroSection() {
           specialized tools, we have you covered.
         </p>
 
-        <MainButton
+        {/* <MainButton
           text="Book a consultation"
           classes="bg-secondary text-white text-[18px] w-full md:w-[231px] hover:text-black"
-        />
+        /> */}
       </div>
       <div className="hidden md:block pt-24">
         <img src="/images/heroCustom.svg" alt="hero illustration" width="670" />
