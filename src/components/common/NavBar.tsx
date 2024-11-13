@@ -3,29 +3,30 @@
 import { useState } from "react";
 import { X } from "lucide-react";
 import MainButton from "./MainButton";
+import Link from "next/link";
 
 function NavBar() {
   const [menu, setMenu] = useState(false);
   const links = [
     {
       name: "About us",
-      link: "/about",
+      link: "#about",
     },
     {
       name: "Why us",
-      link: "/why",
+      link: "#why",
     },
     {
       name: "Products",
-      link: "/products",
+      link: "#products",
     },
     {
       name: "Solutions",
-      link: "/solutions",
+      link: "#solutions",
     },
     {
       name: "Contact us",
-      link: "/contact",
+      link: "#contact",
     },
   ];
 
@@ -43,12 +44,11 @@ function NavBar() {
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             {links.map((link, index) => (
-              <p
-                key={index}
-                className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
-              >
-                {link.name}
-              </p>
+              <Link href={link.link} key={index} scroll={true}>
+                <p className="hover:text-primary cursor-pointer flex items-center gap-2 font-[500] text-gray">
+                  {link.name}
+                </p>
+              </Link>
             ))}
 
             <div className="flex items-center gap-[40px] select-none">
@@ -57,6 +57,7 @@ function NavBar() {
           </div>
         </div>
       </div>
+
       {/* MOBILE */}
       <div
         className={` block lg:hidden shadow-sm  fixed top-0 w-full z-[999] bg-white py-4 animate-in fade-in zoom-in  ${

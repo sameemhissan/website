@@ -38,7 +38,7 @@ function Products() {
     setValue(value);
   };
   return (
-    <section className="">
+    <section id="products" className="">
       <div className="flex flex-col md:flex-row gap-8 md:gap-[40px] items-center ">
         <div className="px-2 bg-primary inline-block font-medium text-h2 rounded-md">
           Products & Services

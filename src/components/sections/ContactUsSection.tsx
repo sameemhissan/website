@@ -7,7 +7,10 @@ import MainButton from "../common/MainButton";
 
 function ContactUsSection() {
   return (
-    <section className="bg-accent flex justify-between w-full rounded-[45px] relative overflow-x-hidden">
+    <section
+      id="contact"
+      className="bg-accent flex justify-between w-full rounded-[45px] relative overflow-x-hidden"
+    >
       <div className="py-[60px] px-8 md:px-[100px] xl:pr-[500px]">
         <div className="flex flex-col md:flex-row gap-8 md:gap-[40px] items-center ">
           <div className="px-2 bg-primary inline-block font-medium text-h2 rounded-md">

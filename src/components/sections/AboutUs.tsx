@@ -3,7 +3,10 @@ import MainButton from "../common/MainButton";
 
 function AboutUs() {
   return (
-    <section className="bg-accent rounded-[45px] p-[50px] md:p-[60px] relative">
+    <section
+      id="about"
+      className="bg-accent rounded-[45px] p-[50px] md:p-[60px] relative"
+    >
       <div className="md:pr-[22rem]">
         <p className="text-h3Mobile md:text-h3 font-medium">About Us</p>
         <p>Empowering Aviation Maintenance with Reliable Supplies</p>
