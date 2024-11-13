@@ -1,24 +1,38 @@
-# Hissan Aero – Your Trusted Partner in Aviation Supply
+# Positivus
+Positivus website built with Next14, Shadcn, and Tailwind.
 
-Based in Ajman, UAE, we specialize in the supply of high-quality aircraft consumables, rotables, expendables, tools, and equipment. Our commitment to excellence and industry expertise ensures that you receive the reliable and efficient service you need to keep your fleet in top condition. Whether you're looking for essential consumables or specialized tools, we have you covered.
+# Youtube
+https://youtu.be/xuX2MTghC4U
 
-- **Your One-Stop Aviation Supply Partner**
-- **Quality Assured, Prompt Delivery**
-- **Explore Our Products & Services**
+# ☁️ Deployed link
+https://positivus-orpin.vercel.app/
 
----
+Figma:  
+https://www.figma.com/design/bv6mTDaEAtJWwpHdhizVB2/Positivus-Landing-Page-Design-(Community)?node-id=25-145&t=w6kdLVCtNaPU5RTB-0
 
-### Framer Motion `Error`
-
-The error occurs because `framer-motion@11.11.13` has a peerOptional dependency on React 18, while your project is using a release candidate of React 19. Framer Motion is not yet fully compatible with React 19, so npm is blocking the installation due to the conflict.
-
-Here are ways to resolve this:
-
-1. Use `--legacy-peer-deps Option`
-   This option allows npm to ignore peer dependency conflicts, which should let you install Framer Motion with React 19:
-
+# ⛏️ Installation
+To follow along the tutorial. Change to the starter branch  after cloning the repo.
+Then install the npm packages & run
 ```bash
-npm install framer-motion@latest --legacy-peer-deps
+npm install && npm run dev
 ```
 
----
+
+## 🔓 Stack
+- Next14
+- Typescript
+- Shadcn
+- Tailwind
+
+## 🔓 Benefits
+- Mobile Responsiveness
+- Learn all the stack in one video
+
+
+## Credits/Shout out
+All thanks to Olga Skuja from the figma community
+https://www.olgaskuja.design/?utm_source=positivus&utm_medium=fig&utm_campaign=prom
+
+## Author
+Built with love ❤️ by Pius Lucky https://luckypius.netlify.app/
+
