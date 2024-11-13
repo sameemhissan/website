@@ -18,11 +18,12 @@ function HeroSection() {
         </div>
 
         <p className="text-p text-black my-[35px]">
-          Based in Ajman, UAE, we specialize in the supply of high-quality
-          aircraft consumables, rotables, expendables, tools, and equipment. Our
-          commitment to excellence and industry expertise ensures that you
-          receive the reliable and efficient service you need to keep your fleet
-          in top condition. Whether you're looking for essential consumables or
+          Based in <span className="font-semibold">United Arab Emirates</span>,
+          we specialize in the supply of high-quality aircraft consumables,
+          rotables, expendables, tools, and equipment. Our commitment to
+          excellence and industry expertise ensures that you receive the
+          reliable and efficient service you need to keep your fleet in top
+          condition. Whether you're looking for essential consumables or
           specialized tools, we have you covered.
         </p>
 
