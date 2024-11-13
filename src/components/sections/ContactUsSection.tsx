@@ -11,10 +11,13 @@ function ContactUsSection() {
       <div className="py-[60px] px-8 md:px-[100px] xl:pr-[500px]">
         <div className="flex flex-col md:flex-row gap-8 md:gap-[40px] items-center ">
           <div className="px-2 bg-primary inline-block font-medium text-h2 rounded-md">
-            Contact Us
+            Contact
           </div>
           <p className="text-p">
-            Connect with Us: Let's Discuss Your Aero Needs
+            Get in Touch with{" "}
+            <strong className="text-blue-700">Hissan Aero</strong> Whether you
+            have a question, need a quote, or would like to learn more about our
+            products, our team is ready to assist.
           </p>
         </div>
 
