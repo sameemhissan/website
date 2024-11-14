@@ -34,7 +34,7 @@ export default function Sustain() {
             Our Commitment to Responsible and Sustainable Operations
           </span>
           <br />
-          At <strong className="text-blue-700">Hissan Aero</strong>, we're
+          At <strong className="text-[#053B83]">Hissan Aero</strong>, we're
           committed to sustainability. We work with eco-conscious suppliers and
           follow strict policies to minimize waste and support sustainable
           aviation initiatives.

@@ -18,7 +18,7 @@ function ContactUsSection() {
           </div>
           <p className="text-p">
             Get in Touch with{" "}
-            <strong className="text-blue-700">Hissan Aero</strong> Whether you
+            <strong className="text-[#053B83]">Hissan Aero</strong> Whether you
             have a question, need a quote, or would like to learn more about our
             products, our team is ready to assist.
           </p>
