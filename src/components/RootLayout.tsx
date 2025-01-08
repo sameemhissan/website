@@ -83,7 +83,7 @@ function Header({
       <PlusGrid>
         <PlusGridRow className="relative flex justify-between">
           <div className="relative flex gap-6">
-            <PlusGridItem className="py-3">
+            <PlusGridItem className="mx-2 px-2">
               <Link
                 href="/"
                 aria-label="Home"
@@ -98,9 +98,11 @@ function Header({
           {/* added later  */}
           <nav className="relative hidden lg:flex">
             <PlusGridItem>
-              <Button href="/#contact" invert={invert} className="mx-4 my-3">
-                Contact us
-              </Button>
+              <div className="flex h-full items-center justify-center bg-blue-300/5 hover:bg-blue-300/10">
+                <Button href="/#contact" invert={invert} className="mx-4">
+                  Contact us
+                </Button>
+              </div>
             </PlusGridItem>
 
             <PlusGridItem className="mx-4 my-3 flex flex-row">
