@@ -1,0 +1,47 @@
+@import './base.css';
+@import './components.css';
+@import './utilities.css';
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* -----Starry Sky ------------- */
+#sky {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  fill: white;
+}
+
+#shootingstars {
+  margin: 0;
+  padding: 0;
+  width: 150vh;
+  height: 100vw;
+  position: fixed;
+  overflow: hidden;
+  transform: translatex(calc(50vw - 50%)) translatey(calc(50vh - 50%))
+    rotate(120deg);
+}
+
+.wish {
+  height: 2px;
+  top: 300px;
+  width: 100px;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  background-color: white;
+  position: absolute;
+  background: linear-gradient(-45deg, white, rgba(0, 0, 255, 0));
+  filter: drop-shadow(0 0 6px white);
+  overflow: hidden;
+}
+/* ------------------------- */

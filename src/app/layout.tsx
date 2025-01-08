@@ -1,26 +1,31 @@
-import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
-import "./globals.css";
+'use client'
 
-export const metadata: Metadata = {
-  title: "Hissan Aero",
-  description:
-    "Based in Ajman, UAE, we specialize in the supply of high-quality aircraft consumables, rotables, expendables, tools, and equipment.",
-};
+import { type Metadata } from 'next'
+import { RootLayout } from '@/components/RootLayout'
+import '@/styles/tailwind.css'
 
-const spaceGrotesk = Space_Grotesk({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
+import { AnimatePresence } from 'framer-motion'
+import TopPreloader from '@/components/TopPreloader/TopPreloader'
+import { useEffect, useState } from 'react'
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Layout({ children }: { children: React.ReactNode }) {
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false)
+      window.scrollTo(0, 0)
+    }, 5000)
+  }, [])
+
   return (
-    <html lang="en">
-      <body className={spaceGrotesk.className}>{children}</body>
+    <html lang="en" className="h-full bg-neutral-950 text-base antialiased">
+      <body className="flex min-h-full flex-col">
+        <AnimatePresence mode="wait">
+          {isLoading && <TopPreloader />}
+        </AnimatePresence>
+        <RootLayout>{children}</RootLayout>
+      </body>
     </html>
-  );
+  )
 }
