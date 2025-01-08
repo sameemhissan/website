@@ -49,7 +49,7 @@ export default function TopPreloader() {
       exit={{ opacity: 0, y: -20 }}
       style={styles.container}
     >
-      <div className="mt-12 hidden w-full scale-150 sm:block">
+      <div className="mt-12 flex w-full scale-50 items-center justify-center sm:scale-150">
         <LoadingRive />
       </div>
     </motion.div>

@@ -41,14 +41,14 @@ export const metadata: Metadata = {
   title: {
     template: '%s - Hissan Aero',
     default:
-      'Based in United Arab Emirates, we specialize in the supply of high-quality aircraft consumables, rotables, expendables, tools, and equipment.',
+      'Hissan Aero, Based in UAE, we specialize in aicraft consumables, rotables and equipments.',
   },
   description:
     'We provide aircraft parts and tools with exceptional quality and service.',
   openGraph: {
     title: 'Hissan Aero',
     description:
-      'Based in United Arab Emirates, we specialize in the supply of high-quality aircraft consumables, rotables, expendables, tools, and equipment.',
+      'Hissan Aero, Based in UAE, we specialize in aicraft consumables, rotables and equipments.',
     url: 'https://hissan-aero.com', // Replace with your domain
     siteName: 'Hissan Aero',
     images: [
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     creator: '@HissanAero',
     title: 'Hissan Aero',
     description:
-      'Based in United Arab Emirates, we specialize in the supply of high-quality aircraft consumables, rotables, expendables, tools, and equipment.',
+      'Hissan Aero, Based in UAE, we specialize in aicraft consumables, rotables and equipments.',
     images: ['/images/og.png'],
   },
 }

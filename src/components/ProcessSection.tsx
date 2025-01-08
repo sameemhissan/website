@@ -232,7 +232,7 @@ function SolutionsSection() {
       </Container> */}
 
       {/* rive */}
-      <div className="mt-12 w-screen scale-110 md:pl-28 md:pr-24">
+      <div className="pointer-events-none mt-12 w-screen scale-110 md:pl-28 md:pr-24">
         <SolutionsRiveAnimation />
       </div>
     </section>
