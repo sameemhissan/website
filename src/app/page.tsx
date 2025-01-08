@@ -49,11 +49,11 @@ export const metadata: Metadata = {
     title: 'Hissan Aero',
     description:
       'Based in United Arab Emirates, we specialize in the supply of high-quality aircraft consumables, rotables, expendables, tools, and equipment.',
-    url: 'https://hissan-aero-design.vercel.app', // Replace with your domain
+    url: 'https://hissan-aero.com', // Replace with your domain
     siteName: 'Hissan Aero',
     images: [
       {
-        url: '/images/og.png', // Relative path
+        url: 'https://hissan-aero.com/images/og.png', // Relative path
         alt: 'Hissan Aero',
       },
     ],
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     type: 'website',
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: 'https://hissan-aero.com/favicon.ico',
   },
   themeColor: '#6f96ff', // Customize the theme color
   twitter: {
