@@ -18,6 +18,7 @@ import dynamic from 'next/dynamic'
 import { GridPattern } from '@/components/GridPattern'
 import { WhyUs } from '@/components/WhyUs'
 import { Metadata } from 'next'
+import Link from 'next/link'
 
 // Dynamically import the RiveAnimation component
 const AboutUsRiveAnimation = dynamic(
@@ -164,6 +165,14 @@ function Sustainability() {
           </List>
         </div>
       </Container>
+
+      <div className="fixed bottom-4 right-4 z-50 sm:hidden">
+        <button className="rounded-3xl bg-black px-4 py-2 text-white shadow-lg shadow-blue-500/50 transition-shadow duration-300 hover:shadow-xl hover:shadow-blue-500">
+          <Link href="#contact" aria-label="Home">
+            Contact Us
+          </Link>
+        </button>
+      </div>
     </section>
   )
 }
