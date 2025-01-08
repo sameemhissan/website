@@ -37,7 +37,7 @@ const AboutUsRiveAnimationMobile = dynamic(
 )
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://hissan-aero-design.vercel.app'), // Replace with your domain
+  metadataBase: new URL('https://hissan-aero.com'), // Replace with your domain
   title: {
     template: '%s - Hissan Aero',
     default:
@@ -59,6 +59,19 @@ export const metadata: Metadata = {
     ],
     locale: 'en_US',
     type: 'website',
+  },
+  icons: {
+    icon: '/favicon.ico',
+  },
+  themeColor: '#ffffff', // Customize the theme color
+  twitter: {
+    card: 'summary_large_image',
+    site: '@HissanAero',
+    creator: '@HissanAero',
+    title: 'Hissan Aero',
+    description:
+      'Based in United Arab Emirates, we specialize in the supply of high-quality aircraft consumables, rotables, expendables, tools, and equipment.',
+    images: ['/images/og.png'],
   },
 }
 
