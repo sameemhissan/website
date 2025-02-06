@@ -11,10 +11,10 @@ import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { TagList, TagListItem } from '@/components/TagList'
-import consumables from '@/images/Consumables.jpg'
-import rotables from '@/images/Rotables.jpg'
+import consumables from '@/images/Consumables.png'
+import rotables from '@/images/Rotables.png'
+import toolsEquipment from '@/images/Tools_equipment.png'
 import imageWhiteboard from '@/images/whiteboard.jpg'
-import toolsEquipment from '@/images/Tools_equipment.jpg'
 import dynamic from 'next/dynamic'
 
 // Dynamically import the RiveAnimation component
